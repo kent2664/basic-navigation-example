@@ -1,2 +1,2 @@
 # basic-navigation-example
-This is a project for learning navigation
+A basic example of multi-page navigation with HTML.
