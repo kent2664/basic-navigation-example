@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav aria-label="Primary navigation">
             <a href="../index.html">
                 <img src="../assets/images/birdlogo.png" alt="BIRD Logo">
             </a>
@@ -22,15 +22,32 @@
         </nav>
     </header>
     <main>
-        <h1 style="text-align: center;">Services Page</h1>
+        <span>
+            <h1 style="text-align: center;margin-top: 20px;">Service Page</h1>
+        </span>
         <aside>
-            <h2>Categories</h2>
-            <ul>
-                <li><a href="./service1.html" class="navlink">Service 1</a></li>
-                <li><a href="./service2.html" class="navlink">Service 2</a></li>
-                <li><a href="./service3.html" class="navlink">Service 3</a></li>
-            </ul>
+            <h2  style="margin-bottom: 30px;">Categories</h2>
+            <nav aria-label="Secondary navigation">
+                <ul>
+                    <li><a href="#" class="navlink">Gardening</a></li>
+                    <li><a href="#" class="navlink">Landscaping</a></li>
+                    <li><a href="#" class="navlink">Weed Control</a></li>
+                    <li><a href="#" class="navlink">Tree Removal</a></li>
+                </ul>
+            </nav>
         </aside>
     </main>
+    <footer>
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="#" class="navlink">FAQ</a></li>
+                <li><a href="#" class="navlink">Terms</a></li>
+                <li><a href="#" class="navlink">Privacy</a></li>
+                <li><a href="#" class="navlink">Cookies</a></li>
+            </ul>
+        </nav>
+        <hr style="margin-bottom: 15px;">
+        <span style="vertical-align: bottom;">&copy; 2024 My Website.</span>
+    </footer>
  </body>
 </html>
